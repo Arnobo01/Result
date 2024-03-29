@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    margin:0 auto;
+    width: 50%;
+  
+    
+    height: 100%;
+    font-size: 14px;
+    font-family: "Hanken Grotesk", sans-serif;
+    
+}
+.result { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(241, 81%, 54%);
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding:10px 0 ;
+    
+
+}
+.number-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100px;
+    height:100px ;
+    background-color:hsla(256, 72%, 46%, 1) ;
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.seventy-six{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+}
+.handred{
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    font-size: 10px;
+}
+.score{
+    padding:15px;
+    letter-spacing: 1.0;
+
+}
+/* section summary starts*/
+.summary{
+    background-color: greenyellow;
+    padding:0 8px;
+
+}
+    .number-block{
+     display: flex;
+    gap: 25px;
+     
+     background-color: rgb(232, 226, 226);
+     padding: 8px 3px;
+     margin: 10px 4px;
+     border-radius: 6px;
+     }
+    .img-icon{
+        width: 13px ;
+    }
+    .number-block-content{
+        display: flex;
+        gap: 5px;
+    }
+    /*.btn{
+        background-color: yellow;
+        border-radius: 1px;
+        padding:4px 4px;
+        border: none;
+        margin-bottom: 10px;
+    }
+    /*.btn{
+        padding:5px 0;
+        background-color : yellow;
+        display: block;
+        margin: auto;
+        width: 60%;
+        border-radius : 50%;
+        overflow: hidden;
+        padding: 14px 14px;
+        border :none;
+        text-align: center;
+        margin:;
+
+    }*/
+    .btn { display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-bottom: ;
+    }
+.btn button{
+    border-radius : 50%;
+    padding: 16px 28px;
+    border :none;
+    background-color : yellow;
+    margin:16px 0;
+
+}
